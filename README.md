@@ -17,3 +17,8 @@
 ### Implementation
 
 - [Grading Students](/challenges/GradingStudents.py)
+- [Apple And Orange](/challenges/AppleAndOrange.py)
+- [Kangaroo](/challenges/Kangaroo.py)
+- [Between Two Sets](/challenges/BetweenTwoSets.py)
+- [Breaking the Records](/challenges/BreakingTheRecords.py)
+
