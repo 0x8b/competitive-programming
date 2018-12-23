@@ -3,7 +3,7 @@
 import math
 import os
 
-# Complete the miniMaxSum function below.
+
 def miniMaxSum(arr):
     max = 0
     min = math.inf
@@ -18,6 +18,7 @@ def miniMaxSum(arr):
             min = s
     
     return min, max
+
 
 if __name__ == '__main__':
     arr = list(map(int, input().rstrip().split()))

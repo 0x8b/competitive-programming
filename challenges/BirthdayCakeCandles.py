@@ -1,11 +1,10 @@
 #!/bin/python3
 
 import os
-import sys
 
 
-def simpleArraySum(ar):
-    return sum(ar)
+def birthdayCakeCandles(ar):
+    return ar.count(max(ar))
 
 
 if __name__ == '__main__':
@@ -15,7 +14,7 @@ if __name__ == '__main__':
 
     ar = list(map(int, input().rstrip().split()))
 
-    result = simpleArraySum(ar)
+    result = birthdayCakeCandles(ar)
 
     fptr.write(str(result) + '\n')
 

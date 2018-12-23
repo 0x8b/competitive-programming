@@ -2,7 +2,7 @@
 
 import os
 
-# Complete the plusMinus function below.
+
 def plusMinus(arr):
     l = len(arr)
     p = n = z = 0
@@ -16,6 +16,7 @@ def plusMinus(arr):
             z += 1
 
     return map(lambda x: '{0:.6f}'.format(x / l), [p, n, z])
+
 
 if __name__ == '__main__':
     n = int(input())

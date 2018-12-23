@@ -11,3 +11,9 @@
 - [Plus Minus](/challenges/PlusMinus.py)
 - [Staircase](/challenges/Staircase.py)
 - [Mini-Max Sum](/challenges/Mini-MaxSum.py)
+- [Time Conversion](/challenges/TimeConversion.py)
+- [Birthday Cake Candles](/challenges/BirthdayCakeCandles.py)
+
+### Implementation
+
+- [Grading Students](/challenges/GradingStudents.py)

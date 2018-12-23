@@ -1,10 +1,7 @@
 #!/bin/python3
 
-import math
 import os
-import random
-import re
-import sys
+
 
 def diagonalDifference(arr):
     result = 0
@@ -13,6 +10,7 @@ def diagonalDifference(arr):
         result += arr[i][i] - arr[i][n - 1 - i]
 
     return abs(result)
+
 
 if __name__ == '__main__':
     fptr = open(os.environ['OUTPUT_PATH'], 'w')
