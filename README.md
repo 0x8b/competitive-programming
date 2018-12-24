@@ -21,4 +21,18 @@
 - [Kangaroo](/challenges/Kangaroo.py)
 - [Between Two Sets](/challenges/BetweenTwoSets.py)
 - [Breaking the Records](/challenges/BreakingTheRecords.py)
+- [Divisible Sum Pairs](/challenges/DivisibleSumPairs.py)
 
+### Strings
+
+- [CamelCase](/challenges/CamelCase.py)
+
+### Sorting
+
+- [Insertion Sort - Part 1](/challenges/InsertionSortPart1.py)
+- [Quicksort 1 - Partition](/challenges/Quicksort1Partition.py)
+
+### Bit Manipulation
+
+- [Maximizing XOR](/challenges/MaximizingXOR.py)
+- [Flipping bits](/challenges/FlippingBits.py)
