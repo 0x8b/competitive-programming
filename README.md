@@ -22,10 +22,17 @@
 - [Between Two Sets](/challenges/BetweenTwoSets.py)
 - [Breaking the Records](/challenges/BreakingTheRecords.py)
 - [Divisible Sum Pairs](/challenges/DivisibleSumPairs.py)
+- [Migration Birds](/challenges/MigrationBirds.py)
+- [Equalize the Array](/challenges/EqualizeTheArray.py)
+- [Designer PDF Viewer](/challenges/DesignerPDFViewer.py)
+- [Minimum Distances](/challenges/MinimumDistances.py)
+- [Modified Kaprekar Numbers](/challenges/ModifiedKaprekarNumbers.py)
+- [Utopian Tree](/challenges/UtopianTree.py)
 
 ### Strings
 
 - [CamelCase](/challenges/CamelCase.py)
+- [Pangrams](/challenges/Pangrams.py)
 
 ### Sorting
 
@@ -36,3 +43,9 @@
 
 - [Maximizing XOR](/challenges/MaximizingXOR.py)
 - [Flipping bits](/challenges/FlippingBits.py)
+
+## Data Structures
+
+### Stacks
+
+- [Maximum Element](/challenges/MaximumElement.py)
