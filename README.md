@@ -1,4 +1,4 @@
-# HackerRank solutions
+# HackerRank solutions :runner:
 
 ## Algorithms
 
@@ -28,6 +28,18 @@
 - [Minimum Distances](/challenges/MinimumDistances.py)
 - [Modified Kaprekar Numbers](/challenges/ModifiedKaprekarNumbers.py)
 - [Utopian Tree](/challenges/UtopianTree.py)
+- [Repeated String](/challenges/RepeatedString.py)
+- [Jumping on the Clouds](/challenges/JumpingOnTheClouds.py)
+- [Cavity Map](/challenges/CavityMap.py)
+- [Manasa and Stones](/challenges/ManasaAndStones.py)
+- [The Hurdle Race](/challenges/TheHurdleRace.py)
+- [Find Digits](/challenges/FindDigits.py)
+- [Beautiful Days at the Movies](/challenges/BeautifulDaysAtTheMovies.py)
+- [Bon Appétit](/challenges/BonAppetit.py)
+- [Counting Valleys](/challenges/CountingValleys.py)
+- [Circular Array Rotation](/challenges/CircularArrayRotation.py)
+- [Picking Numbers](/challenges/PickingNumbers.py)
+- [Library Fine](/challenges/LibraryFine.py)
 
 ### Strings
 
