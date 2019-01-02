@@ -40,11 +40,18 @@
 - [Circular Array Rotation](/challenges/CircularArrayRotation.py)
 - [Picking Numbers](/challenges/PickingNumbers.py)
 - [Library Fine](/challenges/LibraryFine.py)
+- [Beautiful Triples](/challenges/BeautifulTriples.py)
+- [Flatland Space Stations](/challenges/FlatlandSpaceStations.py)
+- [Strange Counter](/challenges/StrangeCounter.py)
+- [Cut the sticks](/challenges/CutTheSticks.py)
+- [Cats and a Mouse](/challenges/CatsAndAMouse.py)
 
 ### Strings
 
 - [CamelCase](/challenges/CamelCase.py)
 - [Pangrams](/challenges/Pangrams.py)
+- [Strong Password](/challenges/StrongPassword.py)
+- [Mars Exploration](/challenges/MarsExploration.py)
 
 ### Sorting
 
