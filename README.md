@@ -45,6 +45,10 @@
 - [Strange Counter](/challenges/StrangeCounter.py)
 - [Cut the sticks](/challenges/CutTheSticks.py)
 - [Cats and a Mouse](/challenges/CatsAndAMouse.py)
+- [Angry Professor](/challenges/AngryProfessor.py)
+- [Taum and B'day](/challenges/TaumAndBday.py)
+- [Halloween Sale](/challenges/HalloweenSale.py)
+- [The Time in Words](/challenges/TheTimeInWords.py)
 
 ### Strings
 
@@ -52,6 +56,8 @@
 - [Pangrams](/challenges/Pangrams.py)
 - [Strong Password](/challenges/StrongPassword.py)
 - [Mars Exploration](/challenges/MarsExploration.py)
+- [Funny String](/challenges/FunnyString.py)
+- [Caesar Cipher](/challenges/CaesarCipher.py)
 
 ### Sorting
 
@@ -62,6 +68,11 @@
 
 - [Maximizing XOR](/challenges/MaximizingXOR.py)
 - [Flipping bits](/challenges/FlippingBits.py)
+- [Lonley Integer](/challenges/LonleyInteger.py)
+
+### Greedy
+
+- [Grid Challenge](/challenges/GridChallenge.py)
 
 ## Data Structures
 
