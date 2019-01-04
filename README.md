@@ -49,6 +49,10 @@
 - [Taum and B'day](/challenges/TaumAndBday.py)
 - [Halloween Sale](/challenges/HalloweenSale.py)
 - [The Time in Words](/challenges/TheTimeInWords.py)
+- [Birthday Chocolate](/challenges/BirthdayChocolate.py)
+- [Day of the Programmer](/challenges/DayOfTheProgrammer.py)
+- [Sock Merchant](/challenges/SockMerchant.py)
+- [Sherlock and Squares](/challenges/SherlockAndSquares.py)
 
 ### Strings
 
@@ -58,6 +62,7 @@
 - [Mars Exploration](/challenges/MarsExploration.py)
 - [Funny String](/challenges/FunnyString.py)
 - [Caesar Cipher](/challenges/CaesarCipher.py)
+- [Gemstones](/challenges/Gemstones.py)
 
 ### Sorting
 
