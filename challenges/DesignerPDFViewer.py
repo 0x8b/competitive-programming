@@ -1,14 +1,7 @@
 h = list(map(int, input().rstrip().split()))
 
-word = set(input())
+word = input()
 
-tallest = 0
+h = [h[ord(l) - ord('a')] for l in set(word)]
 
-for letter in set(word):
-    height = h[ord(letter) - ord('a')]
-
-    tallest = max(height, tallest)
-
-result = tallest * len(word)
-
-print(result)
+print(max(h) * len(word))

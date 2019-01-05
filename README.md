@@ -81,6 +81,22 @@
 
 ## Data Structures
 
+### Arrays
+
+- [2D Array - DS](/challenges/2DArray.py)
+- [Arrays - DS](/challenges/Arrays.py)
+- [Left Rotation](/challenges/LeftRotation.py)
+
+
 ### Stacks
 
 - [Maximum Element](/challenges/MaximumElement.py)
+
+## Mathematics
+
+### Fundamentals
+
+- [Maximum Draws](/challenges/MaximumDraws.py)
+- [Find The Point](/challenges/FindThePoint.py)
+- [Summing the N series](/challenges/SummingTheNSeries.py)
+- [Sherlock and Permutations](/challenges/SherlockAndPermutations.py)
