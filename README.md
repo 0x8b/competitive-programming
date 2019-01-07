@@ -53,6 +53,8 @@
 - [Day of the Programmer](/challenges/DayOfTheProgrammer.py)
 - [Sock Merchant](/challenges/SockMerchant.py)
 - [Sherlock and Squares](/challenges/SherlockAndSquares.py)
+- [Encryption](/challenges/Encryption.py)
+- [Bigger is Greater](/challenges/BiggerIsGreater.py)
 
 ### Strings
 
