@@ -3,6 +3,6 @@ n = int(input())
 
 a = s.count('a')
 
-r = n % len(s)
+q, r = divmod(n, len(s))
 
-print(n // len(s) * a + s[:r].count('a'))
+print(q * a + s[:r].count('a'))

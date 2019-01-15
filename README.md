@@ -102,3 +102,6 @@
 - [Find The Point](/challenges/FindThePoint.py)
 - [Summing the N series](/challenges/SummingTheNSeries.py)
 - [Sherlock and Permutations](/challenges/SherlockAndPermutations.py)
+- [Handshake](/challenges/Handshake.py)
+- [Minimum Height Triangle](/challenges/MinimumHeightTriangle.py)
+- [Army Game](/challenges/ArmyGame.py)

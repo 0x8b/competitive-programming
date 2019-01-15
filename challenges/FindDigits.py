@@ -1,13 +1,11 @@
-t = int(input())
-
-for t_itr in range(t):
-    n = int(input())
+for _ in range(int(input())):
+    n = input()
     c = 0
 
-    for digit in list(str(n)):
+    for digit in n:
         p = int(digit)
 
-        if p != 0 and n % p == 0:
+        if p != 0 and int(n) % p == 0:
             c += 1
-    
+
     print(c)
