@@ -65,11 +65,15 @@
 - [Funny String](/challenges/FunnyString.py)
 - [Caesar Cipher](/challenges/CaesarCipher.py)
 - [Gemstones](/challenges/Gemstones.py)
+- [Super Reduced String](/challenges/SuperReducedString.py)
+- [Two Characters](/challenges/TwoCharacters.py)
+- [HackerRank in a String!](/challenges/HackerRankInAString.py)
 
 ### Sorting
 
 - [Insertion Sort - Part 1](/challenges/InsertionSortPart1.py)
 - [Quicksort 1 - Partition](/challenges/Quicksort1Partition.py)
+- [Big Sorting](/challenges/BigSorting.py)
 
 ### Bit Manipulation
 
@@ -80,6 +84,11 @@
 ### Greedy
 
 - [Grid Challenge](/challenges/GridChallenge.py)
+- [Minimum Absolute Difference in an Array](/challenges/MinimumAbsoluteDifferenceInAnArray.py)
+
+### Dynamic Programming
+
+- [Fibonacci Modified](/challenges/FibonacciModified.py)
 
 ## Data Structures
 
@@ -93,6 +102,7 @@
 ### Stacks
 
 - [Maximum Element](/challenges/MaximumElement.py)
+- [Equal Stacks](/challenges/EqualStacks.py)
 
 ## Mathematics
 
@@ -105,3 +115,10 @@
 - [Handshake](/challenges/Handshake.py)
 - [Minimum Height Triangle](/challenges/MinimumHeightTriangle.py)
 - [Army Game](/challenges/ArmyGame.py)
+- [Strange Grid Again](/challenges/StrangeGridAgain.py)
+- [Cutting Paper Squares](/challenges/CuttingPaperSquares.py)
+
+### Geometry
+
+- [Rectangular Game](/challenges/RectangularGame.py)
+- [Points On a Line](/challenges/PointsOnALine.py)
