@@ -90,6 +90,10 @@
 
 - [Fibonacci Modified](/challenges/FibonacciModified.py)
 
+### Recursion
+
+- [Recursive Digit Sum](/challanges/RecursiveDigitSum.py)
+
 ## Data Structures
 
 ### Arrays
@@ -97,12 +101,14 @@
 - [2D Array - DS](/challenges/2DArray.py)
 - [Arrays - DS](/challenges/Arrays.py)
 - [Left Rotation](/challenges/LeftRotation.py)
+- [Sparse Arrays](/challenges/SparseArrays.py)
 
 
 ### Stacks
 
 - [Maximum Element](/challenges/MaximumElement.py)
 - [Equal Stacks](/challenges/EqualStacks.py)
+- [Balanced Brackets](/challenges/BalancedBrackets.py)
 
 ## Mathematics
 
@@ -117,8 +123,14 @@
 - [Army Game](/challenges/ArmyGame.py)
 - [Strange Grid Again](/challenges/StrangeGridAgain.py)
 - [Cutting Paper Squares](/challenges/CuttingPaperSquares.py)
+- [Special Multiple](/challenges/SpecialMultiple.py)
+
+### Combinatorics
+
+- [Merge List](/challenges/MergeList.py)
 
 ### Geometry
 
 - [Rectangular Game](/challenges/RectangularGame.py)
 - [Points On a Line](/challenges/PointsOnALine.py)
+- [Polar Angles](/challenges/PolarAngles.py)
