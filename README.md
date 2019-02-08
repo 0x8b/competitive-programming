@@ -1,4 +1,4 @@
-# HackerRank solutions :runner:
+# HackerRank solutions (100+) :runner:
 
 ## Algorithms
 
@@ -55,6 +55,7 @@
 - [Sherlock and Squares](/challenges/SherlockAndSquares.py)
 - [Encryption](/challenges/Encryption.py)
 - [Bigger is Greater](/challenges/BiggerIsGreater.py)
+- [Non-Divisible Subset](/challenges/Non-DivisibleSubset.py)
 
 ### Strings
 
@@ -68,6 +69,11 @@
 - [Super Reduced String](/challenges/SuperReducedString.py)
 - [Two Characters](/challenges/TwoCharacters.py)
 - [HackerRank in a String!](/challenges/HackerRankInAString.py)
+- [Separate the Numbers](/challenges/SeparateTheNumbers.py)
+- [Alternating Characters](/challenges/AlternatingCharacters.py)
+- [Beautiful Binary String](/challenges/BeautifulBinaryString.py)
+- [Sherlock and the Valid String](/challenges/SherlockAndTheValidString.py)
+- [String Construction](/challenges/StringConstruction.py)
 
 ### Sorting
 
@@ -80,6 +86,7 @@
 - [Maximizing XOR](/challenges/MaximizingXOR.py)
 - [Flipping bits](/challenges/FlippingBits.py)
 - [Lonley Integer](/challenges/LonleyInteger.py)
+- [Sansa and XOR](/challenges/SansaAndXOR.py)
 
 ### Greedy
 
@@ -92,7 +99,7 @@
 
 ### Recursion
 
-- [Recursive Digit Sum](/challanges/RecursiveDigitSum.py)
+- [Recursive Digit Sum](/challenges/RecursiveDigitSum.py)
 
 ## Data Structures
 
@@ -110,6 +117,13 @@
 - [Equal Stacks](/challenges/EqualStacks.py)
 - [Balanced Brackets](/challenges/BalancedBrackets.py)
 
+### Trees
+
+- [Tree: Preorder Traversal](/challenges/TreePreorderTraversal.py)
+- [Tree: Inorder Traversal](/challenges/TreeInorderTraversal.py)
+- [Tree: Postorder Traversal](/challenges/TreePostorderTraversal.py)
+- [Tree: Height of a Binary Tree](/challenges/TreeHeightOfABinaryTree.py)
+
 ## Mathematics
 
 ### Fundamentals
@@ -124,6 +138,7 @@
 - [Strange Grid Again](/challenges/StrangeGridAgain.py)
 - [Cutting Paper Squares](/challenges/CuttingPaperSquares.py)
 - [Special Multiple](/challenges/SpecialMultiple.py)
+- [Diwali Lights](/challenges/DiwaliLights.py)
 
 ### Combinatorics
 
