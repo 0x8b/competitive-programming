@@ -11,8 +11,11 @@ for _ in range(t):
 
     transposed = [[grid[j][i] for j in range(len(grid))] for i in range(len(grid[0]))]
 
+    # better
+    transposed = list(zip(*grid))
+
     for row in transposed:
-        if row != sorted(row):
+        if row != tuple(sorted(row)):
             y = False
             break
 

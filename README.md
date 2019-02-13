@@ -14,6 +14,10 @@
 - [Time Conversion](/challenges/TimeConversion.py)
 - [Birthday Cake Candles](/challenges/BirthdayCakeCandles.py)
 
+### Graph Theory
+
+- [Dijkstra: Shortest Reach 2](/challenges/DijkstraShortestReach2.py)
+
 ### Implementation
 
 - [Grading Students](/challenges/GradingStudents.py)
@@ -56,6 +60,8 @@
 - [Encryption](/challenges/Encryption.py)
 - [Bigger is Greater](/challenges/BiggerIsGreater.py)
 - [Non-Divisible Subset](/challenges/Non-DivisibleSubset.py)
+- [Sequence Equation](/challenges/SequenceEquation.py)
+- [Jumping on the Clouds: Revisited](/challenges/JumpingOnTheCloudsRevisited.py)
 
 ### Strings
 
