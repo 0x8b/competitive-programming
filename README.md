@@ -20,6 +20,7 @@
 
 ### Implementation
 
+- [Matrix Layer Rotation](/challenges/MatrixLayerRotation.py)
 - [Grading Students](/challenges/GradingStudents.py)
 - [Apple And Orange](/challenges/AppleAndOrange.py)
 - [Kangaroo](/challenges/Kangaroo.py)
