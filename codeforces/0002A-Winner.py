@@ -11,15 +11,11 @@ results = defaultdict(int)
 for _ in range(n):
     name, score = input().split()
     score = int(score)
-
     results[name] += score
-
     data.append((name, score))
 
 m = max(results.values())
-
 names = [name for name, score in results.items() if score == m]
-
 results = defaultdict(int)
 
 for name, score in data:
