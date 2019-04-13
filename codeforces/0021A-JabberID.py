@@ -11,7 +11,7 @@ yes = False
 if match:
     hostname = match.group(1)
 
-    if all(len(s) >= 1 and len(s) <= 16 for s in hostname.split(sep = '.')):
+    if all(0 < len(s) <= 16 for s in hostname.split(sep = '.')):
         yes = True
 
 print('YES' if yes else 'NO')
