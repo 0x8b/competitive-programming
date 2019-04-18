@@ -2,16 +2,10 @@
 
 import re
 
-r = re.compile(r"^[A-Za-z0-9_]{1,16}@([A-Za-z0-9_\.]{1,32})(\/[A-Za-z0-9_]{1,16})?$")
+p = re.compile(r"^[A-Za-z0-9_]{1,16}@([A-Za-z0-9_\.]{1,32})(\/[A-Za-z0-9_]{1,16})?$")
 
-match = r.match(input())
+match = p.match(input())
 
-yes = False
+match = match and all(0 < len(s) <= 16 for s in match.group(0).split(sep = '.'))
 
-if match:
-    hostname = match.group(1)
-
-    if all(0 < len(s) <= 16 for s in hostname.split(sep = '.')):
-        yes = True
-
-print('YES' if yes else 'NO')
+print('YES' if match else 'NO')
