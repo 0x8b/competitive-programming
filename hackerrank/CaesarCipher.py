@@ -1,13 +1,11 @@
-n = int(input())
-s = list(input())
-k = int(input())
+from string import ascii_lowercase as az
 
-k = k % 26
+n = input()
+s = input()
+k = int(input()) % 26
 
-for i, letter in enumerate(s):
-    if letter.isalpha():
-        case = 'a' if letter.islower() else 'A'
+r = az[k:] + az[:k]
 
-        s[i] = chr(ord(case) + (ord(letter) + k) % ord(case) % 26)
+trans = str.maketrans(az + az.upper(), r + r.upper())
 
-print(''.join(s))
+print(s.translate(trans))
