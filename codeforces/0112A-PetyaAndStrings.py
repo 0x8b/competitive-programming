@@ -1,5 +1,3 @@
-#! python
-
 a = input().lower()
 b = input().lower()
 

@@ -1,5 +1,3 @@
-#! python
-
 from collections import defaultdict
 
 n = int(input())

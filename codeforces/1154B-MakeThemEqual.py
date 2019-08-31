@@ -1,5 +1,3 @@
-#! python
-
 n = int(input())
 a = map(int, input().split())
 s = set(a)

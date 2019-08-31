@@ -1,5 +1,3 @@
-#! python
-
 n = int(input())
 s = input()
 

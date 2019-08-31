@@ -1,5 +1,3 @@
-#! python
-
 n, m = map(int, input().split())
 
 counter = 0

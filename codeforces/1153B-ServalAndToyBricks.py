@@ -1,5 +1,3 @@
-#! python
-
 n, m, h = map(int, input().split())
 
 f = list(map(int, input().split())) # front

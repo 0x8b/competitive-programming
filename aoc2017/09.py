@@ -4,30 +4,30 @@ import fileinput
 
 stream = next(fileinput.input())
 
-state = 0
+s = 0  # state
 stack = 0
 total = 0
 
 counter = 0
 
 for ch in stream:
-    if state == 0:
+    if s == 0:
         if ch == '{':
             stack += 1
         elif ch == '}':
             total += stack
             stack -= 1
         elif ch == '<':
-            state = 1
-    elif state == 1:
+            s = 1
+    elif s == 1:
         if ch == '!':
-            state = 2
+            s = 2
         elif ch == '>':
-            state = 0
+            s = 0
         else:
             counter += 1
-    elif state == 2:
-        state = 1
+    elif s == 2:
+        s = 1
 
 
 assert total == 16869

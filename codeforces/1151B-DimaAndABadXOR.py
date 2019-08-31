@@ -1,5 +1,3 @@
-#! python
-
 import operator, functools
 
 index, position = 0, 0

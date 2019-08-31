@@ -1,9 +1,8 @@
-#! python
-
 import re
 import string
 
 upper = string.ascii_uppercase
+
 
 def dec2az(n):
     out = ''
@@ -15,6 +14,7 @@ def dec2az(n):
 
     return out[::-1]
 
+
 def az2dec(s):
     out = 0
 
@@ -23,8 +23,9 @@ def az2dec(s):
 
     return out
 
-rc  = re.compile(r"R(\d+)C(\d+)")
-cr  = re.compile(r"([A-Z]+)(\d+)")
+
+rc = re.compile(r"R(\d+)C(\d+)")
+cr = re.compile(r"([A-Z]+)(\d+)")
 
 n = int(input())
 

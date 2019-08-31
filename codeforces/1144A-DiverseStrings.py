@@ -1,5 +1,3 @@
-#! python
-
 for _ in range(int(input())):
     s = sorted(input())
 
