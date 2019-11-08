@@ -30,8 +30,8 @@ with open('README.md', 'w', encoding='utf8') as readme:
             for path in solutions.glob(f'{name}.*'):
                 line = [
                     name,
-                    f'[{languages[path.suffix[1:]]}](/solutions/{path.name})',
-                    f'[TopCoder \U0001F855]({problem["desc"]})',
+                    f'[{languages[path.suffix[1:]]}](/topcoder/solutions/{path.name})',
+                    f'<a href="{problem["desc"]}" target="_blank">TopCoder \U0001F855</a>',
                 ]
 
                 readme.write(f'|{"|".join(map(str, line))}|\n')
