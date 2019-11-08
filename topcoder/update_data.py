@@ -31,23 +31,24 @@ if match := problem_name.search(html):
         }
 
         while True:
-            print('\n'.join(map(str, [f'{i:02}) {c}' for i, c in enumerate(categories)])))
+            print('\n'.join(map(str, [f'{i}. {c}' for i, c in enumerate(categories)])))
 
-            choice = int(input('Select option: ').strip())
+            choice = int(input(f'[-1..{len(categories) - 1}]: '))
 
             if 0 <= choice < len(categories):
                 data[categories[choice]].append(problem)
                 break
             elif choice == -1:
-                data[input("New category: ").strip()] = [problem]
+                new_category = input("New category: ")
+                data[new_category] = [problem]
                 break
 
-        for key in data.keys():
-            data[key] = list(sorted(data[key], key=itemgetter('name')))
-
     with open('data.json', 'w') as f:
+        for key in data.keys():
+            data[key].sort(key=itemgetter('name'))
+
         f.write(json.dumps(data, indent=4, sort_keys=True))
 
-    Path(f'solutions/{name}.{input("Extension: ").strip()}').touch()
+    Path(f'solutions/{name}.{input("Extension: ")}').touch()
 else:
     print('Problem name not found.')
