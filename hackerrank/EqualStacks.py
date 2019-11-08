@@ -1,6 +1,6 @@
 from itertools import accumulate as acc
 
-n1, n2, n3 = map(int, input().split()) # useless
+n1, n2, n3 = map(int, input().split())  # useless
 
 s = [set(acc(map(int, reversed(input().strip().split())))) for _ in range(3)]
 

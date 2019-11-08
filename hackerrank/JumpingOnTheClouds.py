@@ -1,8 +1,6 @@
 n = int(input())
 c = list(map(int, input().rstrip().split()))
-
 i = 0
-
 a = 0
 
 while i < n - 2:

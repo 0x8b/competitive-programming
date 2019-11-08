@@ -1,0 +1,16 @@
+{
+    "Binary Search": [
+        {
+            "desc": "https://community.topcoder.com/stat?c=problem_statement&pm=1901&rd=4650",
+            "name": "FairWorkload"
+        },
+        {
+            "desc": "https://community.topcoder.com/stat?c=problem_statement&pm=3561&rd=6519",
+            "name": "SortEstimate"
+        },
+        {
+            "desc": "https://community.topcoder.com/stat?c=problem_statement&pm=4823&rd=8074",
+            "name": "UnionOfIntervals"
+        }
+    ]
+}

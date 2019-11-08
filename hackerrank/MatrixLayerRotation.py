@@ -4,7 +4,7 @@ import numpy as np
 
 m, n, rot = map(int, input().rstrip().split())
 
-a = np.array([list(map(int, input().rstrip().split())) for _ in range(m)], dtype = 'uint32')
+a = np.array([list(map(int, input().rstrip().split())) for _ in range(m)], dtype='uint32')
 
 if m != n and min(m, n) == m:
     a = a.T

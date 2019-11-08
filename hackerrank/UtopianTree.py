@@ -5,8 +5,8 @@ for i in range(t):
 
     h = 1
 
-    for i in range(n):
-        if i & 1:
+    for j in range(n):
+        if j & 1:
             h += 1
         else:
             h *= 2

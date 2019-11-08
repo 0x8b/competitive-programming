@@ -4,7 +4,7 @@
 import os
 
 
-def flippingBits(n):
+def flipping_bits(n):
     return ~n & 0xffffffff
 
 
@@ -16,7 +16,7 @@ if __name__ == '__main__':
     for q_itr in range(q):
         n = int(input())
 
-        result = flippingBits(n)
+        result = flipping_bits(n)
 
         fptr.write(str(result) + '\n')
 

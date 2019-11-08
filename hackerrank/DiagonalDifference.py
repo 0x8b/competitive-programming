@@ -1,29 +1,8 @@
-#!/bin/python3
-
-import os
-
-
-def diagonalDifference(arr):
-    result = 0
-
-    for i in range(n):
-        result += arr[i][i] - arr[i][n - 1 - i]
-
-    return abs(result)
+def diagonal_difference(a):
+    return abs(sum(a[i][i] - a[i][n - 1 - i] for i in range(n)))
 
 
-if __name__ == '__main__':
-    fptr = open(os.environ['OUTPUT_PATH'], 'w')
+n = int(input())
+arr = [list(map(int, input().rstrip().split())) for _ in range(n)]
 
-    n = int(input())
-
-    arr = []
-
-    for _ in range(n):
-        arr.append(list(map(int, input().rstrip().split())))
-
-    result = diagonalDifference(arr)
-
-    fptr.write(str(result) + '\n')
-
-    fptr.close()
+print(diagonal_difference(arr))

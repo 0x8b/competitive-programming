@@ -12,18 +12,14 @@ def increase(s):
     if s[-1] == 'z':
         next_char = 'a'
 
-        found = zz.search(s[:-1])
-
-        if found:
+        if found := zz.search(s[:-1]):
             b = found.start(0)
             c = chr(ord(s[b]) + 1)
             s = s[:b] + c + ('a' * (len(s) - (b + 1)))
     else:
         next_char = chr(ord(s[-1]) + 1)
 
-    s = s[:-1] + next_char
-
-    return s
+    return s[:-1] + next_char
 
 
 def search(p):

@@ -6,11 +6,11 @@ invalid = True
 for n in range(p, q + 1):
     d = len(str(n))
     s = str(n * n)
-    m = len(square)
+    m = len(s)
 
     if n == int('0' + s[:m - d]) + int(s[m - d:]):
         invalid = False
-        print(n, end = ' ')
+        print(n, end=' ')
 
 if invalid:
     print("INVALID RANGE")

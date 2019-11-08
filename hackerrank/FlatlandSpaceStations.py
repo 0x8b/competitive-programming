@@ -5,10 +5,7 @@ stations = list(map(int, input().rstrip().split()))
 max_distance = 0
 
 for city in range(n):
-    distances = []
-
-    for station in stations:
-        distances.append(abs(city - station))
+    distances = [abs(city - station) for station in stations]
 
     max_distance = max(max_distance, min(distances))
 

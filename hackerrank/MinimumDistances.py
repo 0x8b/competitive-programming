@@ -1,5 +1,4 @@
 n = int(input())
-
 a = list(map(int, input().rstrip().split()))
 
 distances = []
@@ -11,7 +10,7 @@ for number in set(a):
 
 result = -1
 
-if distances != []:
+if distances:
     result = min(distances)
 
 print(result)

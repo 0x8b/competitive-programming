@@ -9,9 +9,7 @@ pair = re.compile(r'\((\d+)x(\d+)\)')
 decompressed = ''
 
 while True:
-    match = pair.match(file)
-
-    if match:
+    if match := pair.match(file):
         a, b = map(int, match.group(1, 2))
 
         file = file[match.end(2) + 1:]

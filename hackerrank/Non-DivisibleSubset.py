@@ -1,4 +1,4 @@
-from collections import Counter as cnt
+from collections import Counter
 
 n, k = map(int, input().split())
 
@@ -6,8 +6,8 @@ l = list(map(lambda x: int(x) % k, input().rstrip().split()))
 
 ans = len(l)
 
-s   = set(l)
-c   = cnt(l)
+s = set(l)
+c = Counter(l)
 
 pairs = set(tuple(sorted([k - i, i])) for i in s if ((k - i) in s) and (i != k - i))
 

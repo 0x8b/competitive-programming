@@ -5,8 +5,8 @@ for _ in range(t):
 
     i = 1
 
-    while (1):
-        b = int(bin(i)[2:]) * 9 # [2:] - remove leading 0b
+    while True:
+        b = int(bin(i)[2:]) * 9  # [2:] - remove leading 0b
 
         i += 1
 

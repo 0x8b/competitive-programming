@@ -11,7 +11,7 @@ def grading_policy(g):
     return g
 
 
-def gradingStudents(grades):
+def grading_students(grades):
     return map(lambda x: grading_policy(x), grades)
 
 
@@ -26,7 +26,7 @@ if __name__ == '__main__':
         grades_item = int(input())
         grades.append(grades_item)
 
-    result = gradingStudents(grades)
+    result = grading_students(grades)
 
     f.write('\n'.join(map(str, result)))
     f.write('\n')

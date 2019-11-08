@@ -1,4 +1,4 @@
-from copy import copy, deepcopy
+from copy import deepcopy
 
 n = int(input())
 
@@ -8,7 +8,7 @@ for _ in range(n):
     grid_item = list(input())
     grid.append(grid_item)
 
-answer = deepcopy(grid) # [row[:] for row in grid]
+answer = deepcopy(grid)  # [row[:] for row in grid]
 
 for y in range(1, n - 1):
     for x in range(1, n - 1):

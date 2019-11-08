@@ -1,5 +1,4 @@
-from functools import reduce
-from operator import mul
+import math
 
 t = int(input())
 
@@ -8,8 +7,8 @@ for _ in range(t):
 
     m = m - 1
 
-    a = reduce(mul, [i for i in range(n + 1, n + m + 1)], 1)
-    b = reduce(mul, [i for i in range(1, m + 1)], 1)
+    a = math.prod(range(n + 1, n + m + 1))
+    b = math.prod(range(1, m + 1))
 
     if m == 0:
         print(1)

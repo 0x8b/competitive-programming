@@ -7,8 +7,8 @@ import re
 import sys
 
 
-def aVeryBigSum(ar):
-    return sum(ar)
+def aVeryBigSum(arr):
+    return sum(arr)
 
 
 if __name__ == '__main__':

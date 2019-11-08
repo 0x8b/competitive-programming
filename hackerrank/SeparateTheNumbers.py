@@ -4,7 +4,7 @@ for _ in range(q):
     s = input()
 
     if len(s) > 1:
-        for i in range(1, len(s) // 2  + 1):
+        for i in range(1, len(s) // 2 + 1):
             first, rest = int(s[:i]), s[i:]
             n = first
 
