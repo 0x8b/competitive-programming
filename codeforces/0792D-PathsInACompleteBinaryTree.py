@@ -7,9 +7,9 @@ for _ in range(q):
     s = input().strip()
 
     for d in s:
-        if d == 'U':
+        if d == "U":
             pass
-        elif d == 'R':
+        elif d == "R":
             pass
-        elif d == 'L':
+        elif d == "L":
             pass

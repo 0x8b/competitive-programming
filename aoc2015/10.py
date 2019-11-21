@@ -11,7 +11,7 @@ def look_and_say(n):
     for _ in range(n):
         parts = [list(g) for k, g in groupby(s)]
 
-        s = ''.join([str(len(part)) + part[0] for part in parts])
+        s = "".join([str(len(part)) + part[0] for part in parts])
 
     print(len(s))
 

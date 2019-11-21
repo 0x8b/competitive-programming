@@ -23,4 +23,4 @@ def how_many(c, time):
 assert abs(how_many(1, 8) - 4) < 1e-9
 assert abs(how_many(2, 16) - 4) < 1e-9
 assert abs(how_many(37, 12392342) - 23104.999312341137) < 1e-9
-assert abs(how_many(1, 2000000000) - 7.637495090348122E7) < 1e-9
+assert abs(how_many(1, 2000000000) - 7.637495090348122e7) < 1e-9

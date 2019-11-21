@@ -13,8 +13,8 @@ def getTotalX(a, b):
     return c
 
 
-if __name__ == '__main__':
-    f = open(os.environ['OUTPUT_PATH'], 'w')
+if __name__ == "__main__":
+    f = open(os.environ["OUTPUT_PATH"], "w")
 
     nm = input().split()
 
@@ -26,6 +26,6 @@ if __name__ == '__main__':
 
     total = getTotalX(a, b)
 
-    f.write(str(total) + '\n')
+    f.write(str(total) + "\n")
 
     f.close()

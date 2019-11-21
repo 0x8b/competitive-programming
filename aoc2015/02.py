@@ -2,7 +2,7 @@
 
 import fileinput
 
-dims = [tuple(map(int, line.split('x'))) for line in fileinput.input()]
+dims = [tuple(map(int, line.split("x"))) for line in fileinput.input()]
 
 area = []
 ribbon = []

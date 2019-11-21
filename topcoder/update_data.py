@@ -13,16 +13,16 @@ url = pyperclip.paste()
 try:
     response = requests.get(url)
 except:
-    print(f'ERROR. URL: {url}')
+    print(f"ERROR. URL: {url}")
     sys.exit(0)
 
-problem_name = re.compile(r'Problem Statement for ([^<]+)', re.MULTILINE)
+problem_name = re.compile(r"Problem Statement for ([^<]+)", re.MULTILINE)
 html = str(response.content)
 
 if match := problem_name.search(html):
     name = match.group(1)
 
-    with open('data.json', 'r') as f:
+    with open("data.json", "r") as f:
         data = json.load(f)
         categories = sorted(data.keys())
         problem = {
@@ -31,9 +31,9 @@ if match := problem_name.search(html):
         }
 
         while True:
-            print('\n'.join(map(str, [f'{i}. {c}' for i, c in enumerate(categories)])))
+            print("\n".join(map(str, [f"{i}. {c}" for i, c in enumerate(categories)])))
 
-            choice = int(input(f'[-1..{len(categories) - 1}]: '))
+            choice = int(input(f"[-1..{len(categories) - 1}]: "))
 
             if 0 <= choice < len(categories):
                 data[categories[choice]].append(problem)
@@ -43,12 +43,12 @@ if match := problem_name.search(html):
                 data[new_category] = [problem]
                 break
 
-    with open('data.json', 'w') as f:
+    with open("data.json", "w") as f:
         for key in data.keys():
-            data[key].sort(key=itemgetter('name'))
+            data[key].sort(key=itemgetter("name"))
 
         f.write(json.dumps(data, indent=4, sort_keys=True))
 
     Path(f'solutions/{name}.{input("Extension: ")}').touch()
 else:
-    print('Problem name not found.')
+    print("Problem name not found.")

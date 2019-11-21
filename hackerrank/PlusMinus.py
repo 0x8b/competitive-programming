@@ -1,6 +1,6 @@
 import os
 
-n   = int(input())
+n = int(input())
 arr = list(map(int, input().rstrip().split()))
 
 l = len(arr)
@@ -14,4 +14,4 @@ for i in arr:
     else:
         z += 1
 
-print('\n'.join(map(lambda x: '{0:.6f}'.format(x / l), [p, n, z])))
+print("\n".join(map(lambda x: "{0:.6f}".format(x / l), [p, n, z])))

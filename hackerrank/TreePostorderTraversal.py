@@ -5,4 +5,4 @@ def postOrder(root):
     if root.right:
         postOrder(root.right)
 
-    print(root, end = " ")
+    print(root, end=" ")

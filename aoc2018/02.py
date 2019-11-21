@@ -19,8 +19,8 @@ for d in ids:
 assert two * three == 9139
 
 for a, b in zip(ids, ids[1:]):
-    c = ''.join(d for d, e in zip(a, b) if d != e)
+    c = "".join(d for d, e in zip(a, b) if d != e)
 
     if len(c) == len(ids[0]) - 1:
-        assert c == 'uqcidadzwtnhsljvxyobmkfyr'
+        assert c == "uqcidadzwtnhsljvxyobmkfyr"
         break

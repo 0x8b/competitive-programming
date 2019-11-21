@@ -13,14 +13,14 @@ def miniMaxSum(arr):
 
         if s > max:
             max = s
-        
+
         if s < min:
             min = s
-    
+
     return min, max
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     arr = list(map(int, input().rstrip().split()))
 
     min, max = miniMaxSum(arr)

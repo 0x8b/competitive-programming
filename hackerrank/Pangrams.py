@@ -1,4 +1,4 @@
-s = input().strip().replace(' ', '').lower()
+s = input().strip().replace(" ", "").lower()
 
 if len(set(s)) == 26:
     print("pangram")

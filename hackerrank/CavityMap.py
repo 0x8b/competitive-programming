@@ -14,8 +14,13 @@ for y in range(1, n - 1):
     for x in range(1, n - 1):
         c = grid[y][x]
 
-        if c > grid[y - 1][x] and c > grid[y + 1][x] and c > grid[y][x - 1] and c > grid[y][x + 1]:
-            answer[y][x] = 'X'
+        if (
+            c > grid[y - 1][x]
+            and c > grid[y + 1][x]
+            and c > grid[y][x - 1]
+            and c > grid[y][x + 1]
+        ):
+            answer[y][x] = "X"
 
 for row in answer:
-    print(''.join(row))
+    print("".join(row))

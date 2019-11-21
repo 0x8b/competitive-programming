@@ -32,10 +32,13 @@ if __name__ == "__main__":
     assert union_of_intervals([1, 3], [4, 5], 3) == 3
     assert union_of_intervals([-1500000000], [1500000000], 1500000091) == 91
 
-    b = 10 # boundary
+    b = 10  # boundary
 
     num_of_intervals = random.randrange(1, 10)
-    intervals = [(a := random.randrange(-b, b - 1), random.randrange(a + 1, b)) for _ in range(num_of_intervals)]
+    intervals = [
+        (a := random.randrange(-b, b - 1), random.randrange(a + 1, b))
+        for _ in range(num_of_intervals)
+    ]
     lower, upper = zip(*intervals)
 
     arr = sorted(itertools.chain(*(range(f, t + 1) for f, t in intervals)))
@@ -44,4 +47,4 @@ if __name__ == "__main__":
         result = union_of_intervals(lower, upper, i)
 
         if result != expected:
-            print(f'Fail: {result=}, {expected=}, {lower=}, {upper=}')
+            print(f"Fail: {result=}, {expected=}, {lower=}, {upper=}")

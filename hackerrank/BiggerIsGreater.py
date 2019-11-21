@@ -9,7 +9,7 @@ for _ in range(t):
         i -= 1
 
     if i <= 0:
-        print('no answer')
+        print("no answer")
         continue
 
     k = len(w) - 1
@@ -21,4 +21,4 @@ for _ in range(t):
 
     w[i:] = w[len(w) - 1 : i - 1 : -1]
 
-    print(''.join(w))
+    print("".join(w))

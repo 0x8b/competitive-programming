@@ -12,17 +12,17 @@ counter = 0
 
 for ch in stream:
     if s == 0:
-        if ch == '{':
+        if ch == "{":
             stack += 1
-        elif ch == '}':
+        elif ch == "}":
             total += stack
             stack -= 1
-        elif ch == '<':
+        elif ch == "<":
             s = 1
     elif s == 1:
-        if ch == '!':
+        if ch == "!":
             s = 2
-        elif ch == '>':
+        elif ch == ">":
             s = 0
         else:
             counter += 1

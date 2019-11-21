@@ -15,8 +15,8 @@ def grading_students(grades):
     return map(lambda x: grading_policy(x), grades)
 
 
-if __name__ == '__main__':
-    f = open(os.environ['OUTPUT_PATH'], 'w')
+if __name__ == "__main__":
+    f = open(os.environ["OUTPUT_PATH"], "w")
 
     n = int(input())
 
@@ -28,7 +28,7 @@ if __name__ == '__main__':
 
     result = grading_students(grades)
 
-    f.write('\n'.join(map(str, result)))
-    f.write('\n')
+    f.write("\n".join(map(str, result)))
+    f.write("\n")
 
     f.close()

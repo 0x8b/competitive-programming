@@ -8,6 +8,6 @@ m = sum(bill)
 w = m - bill[k]
 
 if b - w // 2 == 0:
-    print('Bon Appetit')
+    print("Bon Appetit")
 else:
     print(b - w // 2)

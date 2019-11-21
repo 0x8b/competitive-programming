@@ -26,4 +26,3 @@ def count(s: str) -> int:
 
 
 print((l[0] != l[-1]) * -1 + count(r) - count(l) + 1)
-

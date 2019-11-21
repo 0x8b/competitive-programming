@@ -1,5 +1,5 @@
 def preOrder(root):
-    print(root, end = " ")
+    print(root, end=" ")
 
     if root.left:
         preOrder(root.left)

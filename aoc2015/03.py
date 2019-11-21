@@ -7,12 +7,7 @@ moves = input().strip()
 
 
 def c(m):
-    return {
-        '^':  0 + 1j,
-        '>':  1 + 0j,
-        'v':  0 - 1j,
-        '<': -1 + 0j
-    }[m]
+    return {"^": 0 + 1j, ">": 1 + 0j, "v": 0 - 1j, "<": -1 + 0j}[m]
 
 
 def houses(moves):

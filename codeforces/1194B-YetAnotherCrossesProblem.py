@@ -2,7 +2,7 @@ from itertools import product
 
 
 def transform(c):
-    return c == '*'
+    return c == "*"
 
 
 def argmax_all(a):

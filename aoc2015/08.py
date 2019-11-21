@@ -13,7 +13,7 @@ strings = [line.strip() for line in fileinput.input()]
 for s in strings:
     total += len(s) - len(f.findall(s[1:-1]))
 
-    encoded_total += len(s) + 2 + s.count('\\') + s.count('"')
+    encoded_total += len(s) + 2 + s.count("\\") + s.count('"')
 
 assert total == 1333
 

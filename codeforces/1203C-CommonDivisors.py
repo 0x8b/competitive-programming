@@ -6,7 +6,7 @@ ints = list(set(map(int, input().strip().split())))
 
 m = min(ints)
 
-s = set(d for d in range(1, int(sqrt(m))+2) if m % d == 0)
+s = set(d for d in range(1, int(sqrt(m)) + 2) if m % d == 0)
 
 s = s.union(set(m // d for d in s))
 

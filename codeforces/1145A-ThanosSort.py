@@ -2,6 +2,7 @@ n = int(input())
 
 arr = list(map(int, input().split()))
 
+
 def check(a):
     length = len(a)
 
@@ -11,5 +12,6 @@ def check(a):
     p = length // 2
 
     return max(check(a[:p]), check(a[p:]))
+
 
 print(check(arr))

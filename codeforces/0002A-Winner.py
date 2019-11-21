@@ -1,7 +1,7 @@
 from collections import defaultdict
 
 n = int(input())
-m = float('-inf')
+m = float("-inf")
 winner = None
 data = []
 results = defaultdict(int)

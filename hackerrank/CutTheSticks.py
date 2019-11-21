@@ -1,4 +1,4 @@
-n   = int(input())
+n = int(input())
 arr = list(map(int, input().rstrip().split()))
 
 while len(arr) > 0:

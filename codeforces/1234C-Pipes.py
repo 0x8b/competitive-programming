@@ -17,4 +17,4 @@ for _ in range(q):
             reachable = False
             break
 
-    print('YES' if reachable and level else 'NO')
+    print("YES" if reachable and level else "NO")

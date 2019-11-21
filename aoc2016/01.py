@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 
-instr = input().strip().split(', ')
+instr = input().strip().split(", ")
 
 instr = [(s[0], int(s[1:])) for s in instr]
 
@@ -15,7 +15,7 @@ found = None
 visited = {position}
 
 for d, dist in instr:
-    if d == 'R':
+    if d == "R":
         direction *= turn_right
     else:
         direction *= turn_left

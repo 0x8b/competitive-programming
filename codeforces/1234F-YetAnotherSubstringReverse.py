@@ -11,7 +11,7 @@ length = 0
 
 for i, c in enumerate(s):
     if c in seen:
-        seen.difference_update(set(s[i - length:last[c]]))
+        seen.difference_update(set(s[i - length : last[c]]))
         length = i - last[c]
     else:
         length = length + 1
@@ -30,12 +30,10 @@ if m == len(letters):
     sys.exit(0)
 
 for i in indexes:
-    substring = s[i - longest[i] + 1:i + 1]
+    substring = s[i - longest[i] + 1 : i + 1]
     bb = letters - set(substring)
-    cc = ''.join([ch if ch in bb else '-' for ch in s])
-    mm = max([len(set(gg)) for gg in cc.split('-')])
+    cc = "".join([ch if ch in bb else "-" for ch in s])
+    mm = max([len(set(gg)) for gg in cc.split("-")])
     kk = max(len(substring) + mm, kk)
 
 print(kk)
-
-

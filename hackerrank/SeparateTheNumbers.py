@@ -12,18 +12,19 @@ for _ in range(q):
                 n = str(n + 1)
 
                 if rest.startswith(n):
-                    rest = rest[len(str(n)):]
+                    rest = rest[len(str(n)) :]
 
-                else: break
+                else:
+                    break
 
                 n = int(n)
 
-            if rest == '':
-                print('YES', first)
+            if rest == "":
+                print("YES", first)
                 break
 
             elif i == len(s) // 2:
-                print('NO')
+                print("NO")
 
     else:
-        print('NO')
+        print("NO")

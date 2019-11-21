@@ -7,8 +7,8 @@ for _ in range(q):
     d2 = abs(c2 - m)
 
     if d1 == d2:
-        print('Mouse C')
+        print("Mouse C")
     elif d1 < d2:
-        print('Cat A')
+        print("Cat A")
     else:
-        print('Cat B')
+        print("Cat B")

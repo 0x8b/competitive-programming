@@ -27,10 +27,10 @@ if ans:
 
     desc = list(reversed(desc))
 
-    print('YES')
+    print("YES")
     print(len(asc))
-    print(' '.join(map(str, asc)))
+    print(" ".join(map(str, asc)))
     print(len(desc))
-    print(' '.join(map(str, desc)))
+    print(" ".join(map(str, desc)))
 else:
-    print('NO')
+    print("NO")

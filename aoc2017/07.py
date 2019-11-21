@@ -6,16 +6,16 @@ import fileinput
 from collections import defaultdict, Counter
 from operator import itemgetter
 
-c = re.compile(r'(\w+)')
+c = re.compile(r"(\w+)")
 
 values = {}
 children = defaultdict(list)
 
 lines = [line for line in fileinput.input()]
 
-head = Counter(re.compile(r'([a-z]+)').findall('\n'.join(lines))).most_common()[-1][0]
+head = Counter(re.compile(r"([a-z]+)").findall("\n".join(lines))).most_common()[-1][0]
 
-assert head == 'cqmvs'
+assert head == "cqmvs"
 
 
 def parse(line):

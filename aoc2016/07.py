@@ -3,19 +3,19 @@
 import re
 import fileinput
 
-abba = re.compile(r'(\w)(\w)\2\1')
-aba = re.compile(r'(?=((\w)\w\2))')
+abba = re.compile(r"(\w)(\w)\2\1")
+aba = re.compile(r"(?=((\w)\w\2))")
 
-b = re.compile(r'\b')
+b = re.compile(r"\b")
 
 tls_counter = 0
 ssl_counter = 0
 
 for ip in fileinput.input():
-    parts = [p for p in b.split(ip.strip()) if p not in ('', '[', ']')]
+    parts = [p for p in b.split(ip.strip()) if p not in ("", "[", "]")]
 
-    supp = ','.join(parts[::2])
-    nets = ','.join(parts[1::2])
+    supp = ",".join(parts[::2])
+    nets = ",".join(parts[1::2])
 
     tls = False
 

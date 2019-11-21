@@ -5,7 +5,7 @@ for _ in range(n):
 
     ans = 0
 
-    if s[0] == '<' and s[-1] == '>':
-        ans = min(s.index('>'), s[::-1].index('<'))
+    if s[0] == "<" and s[-1] == ">":
+        ans = min(s.index(">"), s[::-1].index("<"))
 
     print(ans)

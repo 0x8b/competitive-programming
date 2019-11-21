@@ -14,4 +14,4 @@ for i in range(k):
     if curr == len(ch):
         curr = 0
 
-print(' '.join(map(str, out)))
+print(" ".join(map(str, out)))

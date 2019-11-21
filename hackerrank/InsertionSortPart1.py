@@ -14,12 +14,12 @@ def insertionSort1(n, arr):
             arr[i] = el
             print(" ".join(map(str, arr)))
             return
-        
+
     arr[0] = el
     print(" ".join(map(str, arr)))
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     n = int(input())
 
     arr = list(map(int, input().rstrip().split()))

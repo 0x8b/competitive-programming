@@ -4,7 +4,7 @@ import re
 import fileinput
 import numpy as np
 
-number = re.compile(r'\d+')
+number = re.compile(r"\d+")
 
 lights1 = np.zeros((1000, 1000), np.bool_)
 lights2 = np.zeros((1000, 1000), np.longlong)
@@ -15,10 +15,10 @@ for instr in fileinput.input():
     brx += 1
     bry += 1
 
-    if 'turn on' in instr:
+    if "turn on" in instr:
         lights1[tlx:brx, tly:bry] = True
         lights2[tlx:brx, tly:bry] += 1
-    elif 'turn off' in instr:
+    elif "turn off" in instr:
         lights1[tlx:brx, tly:bry] = False
         lights2[tlx:brx, tly:bry] -= 1
         lights2[lights2 < 0] = 0

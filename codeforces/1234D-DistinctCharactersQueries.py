@@ -7,7 +7,7 @@ for _ in range(q):
 
     if int(mode) == 2:
         cr = int(cr)
-        print(len(set(s[int(posl) - 1:cr])))
+        print(len(set(s[int(posl) - 1 : cr])))
     else:
         i = int(posl) - 1
         s[i] = cr

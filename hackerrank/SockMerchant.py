@@ -1,6 +1,6 @@
 from collections import Counter
 
-n  = int(input())
+n = int(input())
 ar = list(map(int, input().rstrip().split()))
 
 # solution

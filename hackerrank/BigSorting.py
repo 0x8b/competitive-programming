@@ -7,6 +7,7 @@ unsorted = []
 for _ in range(n):
     unsorted.append(input())
 
+
 def custom(a, b):
     if len(a) == len(b):
         if a < b:
@@ -18,7 +19,8 @@ def custom(a, b):
     else:
         return len(a) - len(b)
 
-unsorted.sort(key = cmp_to_key(custom))
+
+unsorted.sort(key=cmp_to_key(custom))
 
 for number in unsorted:
     print(number)

@@ -11,8 +11,8 @@ for _ in range(q):
     odd = sum(parity)
 
     if odd >= k and ((odd - k) % 2) == 0:
-        print('YES')
-        print(' '.join(map(str, (list(compress(count(1), parity))[:-1] + [n])[-k:])))
+        print("YES")
+        print(" ".join(map(str, (list(compress(count(1), parity))[:-1] + [n])[-k:])))
 
     else:
-        print('NO')
+        print("NO")

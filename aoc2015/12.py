@@ -5,7 +5,7 @@ import json
 
 content = input()
 
-number = re.compile(r'-?\d+')
+number = re.compile(r"-?\d+")
 
 all_numbers = map(int, number.findall(content))
 
@@ -15,13 +15,13 @@ parsed = json.loads(content)
 def traverse(node):
     if isinstance(node, dict):
         for k, v in node.items():
-            if isinstance(v, dict) and 'red' in v.values():
+            if isinstance(v, dict) and "red" in v.values():
                 node[k] = 0
 
             traverse(node[k])
     elif isinstance(node, list):
         for i in range(len(node)):
-            if isinstance(node[i], dict) and 'red' in node[i].values():
+            if isinstance(node[i], dict) and "red" in node[i].values():
                 node[i] = 0
 
             traverse(node[i])

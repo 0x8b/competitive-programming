@@ -17,8 +17,8 @@ def kangaroo(x1, v1, x2, v2):
         return "NO"
 
 
-if __name__ == '__main__':
-    fptr = open(os.environ['OUTPUT_PATH'], 'w')
+if __name__ == "__main__":
+    fptr = open(os.environ["OUTPUT_PATH"], "w")
 
     x1V1X2V2 = input().split()
 
@@ -29,6 +29,6 @@ if __name__ == '__main__':
 
     result = kangaroo(x1, v1, x2, v2)
 
-    fptr.write(result + '\n')
+    fptr.write(result + "\n")
 
     fptr.close()

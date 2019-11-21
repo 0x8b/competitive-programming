@@ -1,6 +1,6 @@
 t = int(input())
 
-m = {'}': '{', ']': '[', ')': '('}
+m = {"}": "{", "]": "[", ")": "("}
 
 for _ in range(t):
     s = list(input())
@@ -10,7 +10,7 @@ for _ in range(t):
     c = True
 
     for b in s:
-        if b in '[{(':
+        if b in "[{(":
             stack.append(b)
         else:
             if len(stack) and stack[-1] == m[b]:
@@ -18,5 +18,5 @@ for _ in range(t):
             else:
                 c = False
                 break
-        
-    print('YES' if c and len(stack) == 0 else 'NO')
+
+    print("YES" if c and len(stack) == 0 else "NO")

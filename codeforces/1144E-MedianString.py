@@ -2,7 +2,7 @@ from string import ascii_lowercase
 
 
 def dec2az(n: int) -> str:
-    out = ''
+    out = ""
 
     while n:
         mod = (n - 1) % 26
@@ -16,7 +16,7 @@ def az2dec(s: str) -> int:
     out = 0
 
     for p, c in enumerate(s[::-1]):
-        out += 26 ** p * (ord(c) - ord('a') + 1)
+        out += 26 ** p * (ord(c) - ord("a") + 1)
 
     return out
 

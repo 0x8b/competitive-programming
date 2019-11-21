@@ -19,4 +19,4 @@ for a in list(map(int, input().strip().split())):
         c = c - 1
 
 print(len(m))
-print(' '.join(map(str, m)))
+print(" ".join(map(str, m)))

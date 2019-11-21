@@ -10,7 +10,7 @@ print(unique)
 
 # alternative
 
-import operator  as op
+import operator as op
 import functools as ft
 
 lonley_integer = ft.reduce(op.xor, a, 0)

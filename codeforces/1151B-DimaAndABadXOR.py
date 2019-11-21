@@ -18,9 +18,9 @@ if yes and xor == 0:
                     break
             break
 
-print('TAK' if yes else 'NIE')
+print("TAK" if yes else "NIE")
 
 if yes:
-    indices = ['1'] * n
+    indices = ["1"] * n
     indices[index] = str(position)
-    print(' '.join(indices))
+    print(" ".join(indices))

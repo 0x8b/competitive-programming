@@ -4,20 +4,20 @@ import re
 
 file = input()
 
-pair = re.compile(r'\((\d+)x(\d+)\)')
+pair = re.compile(r"\((\d+)x(\d+)\)")
 
-decompressed = ''
+decompressed = ""
 
 while True:
     if match := pair.match(file):
         a, b = map(int, match.group(1, 2))
 
-        file = file[match.end(2) + 1:]
+        file = file[match.end(2) + 1 :]
 
         decompressed += file[:a] * b
         file = file[a:]
 
-    index = file.find('(')
+    index = file.find("(")
 
     if index == -1:
         decompressed += file

@@ -2,7 +2,7 @@ import math
 
 n, t = map(int, input().split())
 
-minimum, index = float('inf'), 0
+minimum, index = float("inf"), 0
 
 for i in range(n):
     s, d = map(int, input().split())

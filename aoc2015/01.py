@@ -4,7 +4,7 @@ from itertools import accumulate
 
 instructions = input().strip()
 
-direction = [1 if i == '(' else -1 for i in instructions]
+direction = [1 if i == "(" else -1 for i in instructions]
 
 assert sum(direction) == 280
 

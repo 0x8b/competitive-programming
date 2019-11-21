@@ -5,7 +5,7 @@ upper = string.ascii_uppercase
 
 
 def dec2az(n):
-    out = ''
+    out = ""
 
     while n:
         mod = (n - 1) % 26
@@ -19,7 +19,7 @@ def az2dec(s):
     out = 0
 
     for p, c in enumerate(s[::-1]):
-        out += 26 ** p * (ord(c) - ord('A') + 1)
+        out += 26 ** p * (ord(c) - ord("A") + 1)
 
     return out
 

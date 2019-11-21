@@ -7,8 +7,8 @@ for _ in range(q):
     a = [0] * 10
 
     for i in range(10):
-        a[i] = (m + a[i-1]) % 10
+        a[i] = (m + a[i - 1]) % 10
 
     s = sum(a)
 
-    print((d // 10) * s + sum(a[:(d % 10)]))
+    print((d // 10) * s + sum(a[: (d % 10)]))

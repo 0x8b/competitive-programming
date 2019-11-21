@@ -6,7 +6,7 @@ import fileinput
 from collections import Counter
 from functools import cmp_to_key
 
-structure = re.compile(r'^((\w+-)+)(\d+)\[(\w+)\]$')
+structure = re.compile(r"^((\w+-)+)(\d+)\[(\w+)\]$")
 
 
 def cmp(a, b):
@@ -30,20 +30,20 @@ for line in fileinput.input():
 
     sector_id = int(sector_id)
 
-    cc = Counter(name.replace('-', ''))
+    cc = Counter(name.replace("-", ""))
 
     cc = cc.most_common()
     cc.sort(key=cmp_items)
 
-    if checksum == ''.join([e[0] for e in cc[:5]]):
+    if checksum == "".join([e[0] for e in cc[:5]]):
         s += sector_id
 
-    name = name.replace('-', ' ').strip()
+    name = name.replace("-", " ").strip()
     shift = sector_id % 26
     az = string.ascii_lowercase
     name = name.translate(str.maketrans(az, az[shift:] + az[:shift]))
 
-    if 'north' in name:
+    if "north" in name:
         north_object_id = sector_id
 
 

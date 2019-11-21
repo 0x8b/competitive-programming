@@ -10,5 +10,5 @@ for i in range(t):
             h += 1
         else:
             h *= 2
-    
+
     print(h)

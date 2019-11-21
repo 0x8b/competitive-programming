@@ -13,4 +13,4 @@ for _ in range(int(input())):
         eq.append(a == b and c == d)
         areas.append(a * c)
 
-    print('YES' if all(eq) and all(areas[0] == a for a in areas) else 'NO')
+    print("YES" if all(eq) and all(areas[0] == a for a in areas) else "NO")

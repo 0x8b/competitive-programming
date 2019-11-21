@@ -16,12 +16,12 @@ def quickSort(arr):
             right.append(arr[i])
         else:
             equal.append(arr[i])
-    
+
     return left + equal + right
 
 
-if __name__ == '__main__':
-    fptr = open(os.environ['OUTPUT_PATH'], 'w')
+if __name__ == "__main__":
+    fptr = open(os.environ["OUTPUT_PATH"], "w")
 
     n = int(input())
 
@@ -29,7 +29,7 @@ if __name__ == '__main__':
 
     result = quickSort(arr)
 
-    fptr.write(' '.join(map(str, result)))
-    fptr.write('\n')
+    fptr.write(" ".join(map(str, result)))
+    fptr.write("\n")
 
     fptr.close()

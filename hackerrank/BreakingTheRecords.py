@@ -12,7 +12,7 @@ def breakingRecords(scores):
         if s > max_score:
             max_score = s
             h += 1
-        
+
         if s < min_score:
             min_score = s
             l += 1
@@ -20,8 +20,8 @@ def breakingRecords(scores):
     return h, l
 
 
-if __name__ == '__main__':
-    fptr = open(os.environ['OUTPUT_PATH'], 'w')
+if __name__ == "__main__":
+    fptr = open(os.environ["OUTPUT_PATH"], "w")
 
     n = int(input())
 
@@ -29,7 +29,7 @@ if __name__ == '__main__':
 
     result = breakingRecords(scores)
 
-    fptr.write(' '.join(map(str, result)))
-    fptr.write('\n')
+    fptr.write(" ".join(map(str, result)))
+    fptr.write("\n")
 
     fptr.close()
