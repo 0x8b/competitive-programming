@@ -1,7 +1,6 @@
 #!/usr/bin/env python
 
 import fileinput
-
 from collections import defaultdict
 
 reg = defaultdict(int)

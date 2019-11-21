@@ -1,4 +1,5 @@
-import operator, functools
+import functools
+import operator
 
 index, position = 0, 0
 n, m = map(int, input().split())

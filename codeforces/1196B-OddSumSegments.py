@@ -1,4 +1,4 @@
-from itertools import count, compress
+from itertools import compress, count
 
 q = int(input())
 

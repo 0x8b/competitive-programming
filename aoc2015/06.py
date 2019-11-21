@@ -1,7 +1,8 @@
 #!/usr/bin/env python
 
-import re
 import fileinput
+import re
+
 import numpy as np
 
 number = re.compile(r"\d+")

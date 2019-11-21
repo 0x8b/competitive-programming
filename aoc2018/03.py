@@ -1,7 +1,8 @@
 #!/usr/bin/env python
 
-import re
 import fileinput
+import re
+
 import numpy as np
 
 fabric = np.zeros((1000, 1000), dtype=np.int)

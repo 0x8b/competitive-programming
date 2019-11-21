@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 
-import hashlib
 import fileinput
+import hashlib
 
 door_id = next(fileinput.input()).strip()
 password = ""

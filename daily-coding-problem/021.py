@@ -33,7 +33,6 @@ print(required)  # 2
 
 #### better
 
-from collections import defaultdict
 
 lectures = [(30, 75), (0, 50), (60, 150)]
 

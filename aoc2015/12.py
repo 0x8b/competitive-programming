@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 
-import re
 import json
+import re
 
 content = input()
 

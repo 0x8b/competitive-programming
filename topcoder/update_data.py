@@ -1,12 +1,13 @@
 #!/usr/bin/env python
 
+import json
+import re
+import sys
 from operator import itemgetter
 from pathlib import Path
+
 import pyperclip
 import requests
-import json
-import sys
-import re
 
 url = pyperclip.paste()
 

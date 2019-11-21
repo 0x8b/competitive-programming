@@ -1,8 +1,8 @@
 #!/usr/bin/env python
 
+import fileinput
 import re
 import string
-import fileinput
 from collections import Counter
 from functools import cmp_to_key
 

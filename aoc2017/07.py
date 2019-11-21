@@ -1,9 +1,8 @@
 #!/usr/bin/env python
 
-import re
 import fileinput
-
-from collections import defaultdict, Counter
+import re
+from collections import Counter, defaultdict
 from operator import itemgetter
 
 c = re.compile(r"(\w+)")

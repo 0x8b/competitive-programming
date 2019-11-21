@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 
-import re
 import fileinput
+import re
 
 sep = re.compile(r" to | = ")
 

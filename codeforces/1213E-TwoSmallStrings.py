@@ -1,5 +1,5 @@
-from itertools import permutations
 import sys
+from itertools import permutations
 
 n = int(input())
 s = input()

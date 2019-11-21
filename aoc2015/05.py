@@ -1,8 +1,7 @@
 #!/usr/bin/env python
 
-import re
 import fileinput
-
+import re
 
 strings = [s for s in fileinput.input()]
 

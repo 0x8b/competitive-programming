@@ -1,5 +1,5 @@
-import os
 import itertools
+import os
 
 
 def divisible_sum_pairs(n, k, ar):

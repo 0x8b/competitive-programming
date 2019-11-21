@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 
-import re
 import fileinput
+import re
 
 total = 0
 encoded_total = 0

@@ -1,8 +1,8 @@
 #!/bin/python3
 
 
-import os
 import math
+import os
 
 
 def kangaroo(x1, v1, x2, v2):

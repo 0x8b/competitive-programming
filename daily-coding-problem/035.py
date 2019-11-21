@@ -9,8 +9,7 @@ For example, given the array ['G', 'B', 'R', 'R', 'B', 'R', 'G'], it should
 become ['R', 'R', 'R', 'G', 'G', 'B', 'B'].
 """
 
-from random import shuffle, randint
-
+from random import randint, shuffle
 
 s = list("R" * randint(0, 10) + "G" * randint(0, 10) + "B" * randint(0, 10))
 a = s[:]

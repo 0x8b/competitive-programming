@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 
-import re
 import fileinput
+import re
 
 abba = re.compile(r"(\w)(\w)\2\1")
 aba = re.compile(r"(?=((\w)\w\2))")

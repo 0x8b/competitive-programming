@@ -12,7 +12,6 @@ You can assume the string to be decoded is valid.
 
 import re
 
-
 s = input().strip()
 
 

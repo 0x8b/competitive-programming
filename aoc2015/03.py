@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 
-from itertools import accumulate
 from collections import Counter
+from itertools import accumulate
 
 moves = input().strip()
 

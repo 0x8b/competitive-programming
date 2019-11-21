@@ -1,6 +1,7 @@
 #!/usr/bin/env python
 
 import fileinput
+
 import numpy as np
 
 data = []

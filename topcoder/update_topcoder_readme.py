@@ -1,9 +1,8 @@
 #!/usr/bin/env python
 
-from pathlib import Path
-from operator import itemgetter
 import json
-
+from operator import itemgetter
+from pathlib import Path
 
 with open("data.json", "r") as f:
     data = json.load(f)
